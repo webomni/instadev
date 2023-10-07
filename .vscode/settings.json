@@ -1,11 +1,22 @@
 {
   "vetur.validation.template": false,
   "vetur.format.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint":true
+  },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
-    "vue"
+    "vue",
+    "html"
   ],
-  "vetur.experimental.templateInterpolationService": true
+  "vetur.experimental.templateInterpolationService": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.quoteProps": "preserve",
+  "prettier.singleQuote": true,
+  "prettier.embeddedLanguageFormatting": "off",
+  "prettier.documentSelectors": [
+    "\"singleQuote\": true,"
+  ]
 }
